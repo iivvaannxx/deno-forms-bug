@@ -1,16 +1,30 @@
-# Fresh project
+# How to run
 
-Your new Fresh project is ready to go. You can follow the Fresh "Getting
-Started" guide here: https://fresh.deno.dev/docs/getting-started
+1. Clone this project.
 
-### Usage
+```sh
 
-Make sure to install Deno: https://deno.land/manual/getting_started/installation
-
-Then start the project:
+git clone https://github.com/iivvaannxx/deno-forms-bug
 
 ```
-deno task start
+
+2. Ensure Docker is installed and the file `run.sh` has execution permissions.
+
+```sh
+
+docker --version
+chmod +x ./run.sh
+
 ```
 
-This will watch the project directory and restart as necessary.
+3. Execute the script `run.sh` which will create the docker image `conditional-bug` and start it on port 80.
+
+```sh
+
+./run.sh
+
+... Script executes ...
+
+App running on port 80.
+
+```
