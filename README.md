@@ -17,7 +17,7 @@ chmod +x ./run.sh
 
 ```
 
-3. Execute the script `run.sh` which will create the docker image `conditional-bug` and start it on port 80.
+1. Execute the script `run.sh` which will create the docker image `deno-forms-bug` and start it on port 80.
 
 ```sh
 
